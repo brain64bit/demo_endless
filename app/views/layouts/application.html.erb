@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DemoEndless</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag 'jquery-1.5.2.min','rails', 'application', 'pagination' %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div style="padding-left:30%; padding-right:30%;">
+<%= yield %>
+</div>
+</body>
+</html>

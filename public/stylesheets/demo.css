@@ -1,0 +1,62 @@
+.commentRow {
+    width: 560px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.commentRow .avatar {
+    width: 68px;
+    float: left;
+    padding-top: 5px;
+}
+
+.commentRow .tools {
+    width: 68px;
+    margin-top: 2px;
+    margin-right: 20px;
+    padding: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.commentRow .info {
+    width: 450px;
+    padding-right: 20px;
+    float: right;
+    word-wrap: break-word;
+}
+
+.morePagination {
+    width: 560px;
+    font-size: 16px;
+    text-align: center;    
+}
+
+.morePagination .disabled {
+    display: inline-block;
+    padding: 2px 5px;
+    color: #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.morePagination a:link, .morePagination a:visited {
+    display: inline-block;
+    padding: 2px 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255,.3);
+    border: 1px solid #DDDDDD;
+}
+
+.morePagination a:hover {
+    color: #999999;
+    background: #ccc;
+    
+}

@@ -1,0 +1,9 @@
+<h1>Listing activities</h1>
+
+<div id="activities">
+<% @activities.each do |activity| %>
+  <%= render 'activity', :locals => {:activity => activity} %>
+<% end %>
+</div>
+<%= get_more_will_paginate(@activities, 'activities_pagination') %>
+<br />

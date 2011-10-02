@@ -1,0 +1,2 @@
+$("#activities").append("<% for activity in @activities %><%= escape_javascript(render 'activity', :locals => {:activity => activity}) %><% end %>");
+$("#activities_pagination").html("<%= escape_javascript(get_more_will_paginate(@activities, 'activities_pagination')) %>");

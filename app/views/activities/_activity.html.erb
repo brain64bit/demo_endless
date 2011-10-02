@@ -1,0 +1,17 @@
+<% activity = locals[:activity] %>
+
+<div class="commentRow">
+  <div class="avatar">
+    <%= image_tag activity.avatar, :size=>"64x64" %>
+  </div>
+
+  <div class="info">
+    <h5>
+      <%= activity.username %>
+      <span>&nbsp;&ndash;&nbsp;<%= l(activity.created_at) %> </span>
+    </h5>
+    <p>
+      <%= activity.comment %>
+    </p>
+  </div>
+</div>
